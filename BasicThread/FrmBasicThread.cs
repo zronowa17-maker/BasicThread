@@ -38,9 +38,10 @@ namespace BasicThread
             label1.Text = "-End of Thread-";
             Console.WriteLine("The thread 0x" + threadA.ManagedThreadId.ToString("X") + " has excited with code 0 (0x0)");
             Console.WriteLine("The thread 0x" + threadB.ManagedThreadId.ToString("X") + " has excited with code 0 (0x0)");
+            Console.WriteLine("The program '[1234] BasicThread.vshost.exe' has exited with code 0 (0x0).");
 
-           
-            Console.WriteLine("-End of Thread1-");
+
+            Console.WriteLine("-End of Thread-");
         }
     }
 }
