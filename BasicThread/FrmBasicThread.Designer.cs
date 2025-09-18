@@ -1,6 +1,6 @@
 ﻿namespace BasicThread
 {
-    partial class Form1
+    partial class FrmBasicThread
     {
         /// <summary>
         /// Required designer variable.
@@ -51,6 +51,7 @@
             this.bntRun.TabIndex = 1;
             this.bntRun.Text = "Run";
             this.bntRun.UseVisualStyleBackColor = true;
+            this.bntRun.Click += new System.EventHandler(this.bntRun_Click);
             // 
             // Form1
             // 
