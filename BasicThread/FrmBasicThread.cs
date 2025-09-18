@@ -40,7 +40,7 @@ namespace BasicThread
             Console.WriteLine("The thread 0x" + threadB.ManagedThreadId.ToString("X") + " has excited with code 0 (0x0)");
 
            
-            Console.WriteLine("-End of Thread-");
+            Console.WriteLine("-End of Thread1-");
         }
     }
 }
